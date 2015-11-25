@@ -22,3 +22,5 @@ _testmain.go
 *.exe
 *.test
 *.prof
+kubectl/k8s-*.tar.gz
+kubectl/kubernetes-*
