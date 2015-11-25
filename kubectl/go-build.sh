@@ -16,5 +16,5 @@ tar -xzf k8s-1.1.1.tar.gz
 mv kubernetes-1.1.1 $GOPATH/src/k8s.io/kubernetes
 cd $GOPATH/src/k8s.io/kubernetes
 
-echo "CGO_ENABLED=0 godep go build -o /pwd/kubectl"
+echo "go build"
 CGO_ENABLED=0 godep go build cmd/kubectl/kubectl.go -o /pwd/kubectl
